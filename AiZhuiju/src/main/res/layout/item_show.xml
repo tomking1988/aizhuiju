@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="90dp"
+        android:scaleType="fitXY"
+        android:id="@+id/show_image"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/movie_default_small"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show title"
+        android:layout_toRightOf="@+id/show_image"
+        android:id="@+id/show_title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="pubdate"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/grey"
+        android:layout_alignLeft="@+id/show_title"
+        android:layout_below="@+id/show_title"
+        android:id="@+id/pubdate"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="rating"
+        android:layout_alignLeft="@+id/pubdate"
+        android:layout_below="@+id/pubdate"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/rating"/>
+</RelativeLayout>

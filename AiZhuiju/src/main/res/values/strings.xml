@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">爱追剧</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_add">Add</string>
+    <string name="title_activity_search">搜剧</string>
+    <string name="search_hint">输入剧名</string>
+    <string name="show_exists">已追</string>
+    <string name="show_wrong_type">暂不支持追电影</string>
+    <string name="show_added">加入追剧队列</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期日</string>
+    <string name="delete_show_title">我要弃追</string>
+    <string name="delete_show_yes">删除</string>
+    <string name="cancel">取消</string>
+    <string name="open_browser">打开链接： </string>
+    <string name="acknowledge">确定</string>
+
+</resources>
